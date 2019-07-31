@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            /*font-size:100px;*/
+            text-decoration: none;
+            color:#ffffff;
+        }
+        html{
+            font-size: 100px;
+        }
+        body{
+             font-size: 0.13rem;
+        }
+        header{
+            width: 100%;
+        }
+        .back{
+            width: 100%;
+        }
+        .my-app a{
+            color: #ffffff;
+            margin-left: 0.2rem;
+            height: 0.32rem;
+            display: inline-block;
+            padding-top: 0.2rem;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .my-app{
+            position: absolute;
+            top: 0.12rem;
+            right: 0.16rem;
+        }
+        .my-app>a:nth-child(1){
+            background: url("img/urse.png") center 0 no-repeat;
+            background-size: 0.14rem 0.15rem;
+        }
+        .my-app>a:nth-child(2){
+            background: url("img/down.png") center 0 no-repeat;
+            background-size: 0.14rem 0.15rem;
+        }
+        .my-log{
+            width: 0.53rem;
+            height: 0.53rem;
+            position: absolute;
+            left: 50%;
+            top: 0.8rem;
+            margin-left:-26.5px;
+        }
+        .enter{
+            border: 1px solid #ffffff;
+            padding: 0.06rem 0.2rem;
+            position: absolute;
+            left: 50%;
+            top: 1.5rem;
+            margin-left:-35.5px;
+        }
+        .my-list{
+            margin-top: 0.12rem;
+            padding: 0 0.2rem;
+        }
+        .my-list ul li{
+            height: 0.48rem;
+            line-height: 0.48rem;
+            border-bottom: 1px solid #dcdcdc;
+            background: url("img/right.png") right center no-repeat;
+            background-size:0.07rem 0.14rem ;
+        }
+        .my-list ul li img{
+            width: 0.2rem;
+            height: 0.2rem;
+        }
+        .my-list ul li>a{
+            color:gray;
+            margin-left: 0.2rem;
+        }
+
+
+    </style>
+</head>
+<body>
+<header>
+    <img src="img/bg1.png" alt="" class="back">
+    <div class="my-app">
+        <a href="">我的</a>
+        <a href="">App</a>
+    </div>
+    <img src="img/urse2.png" alt="" class="my-log">
+    <span class="enter">登录</span>
+</header>
+<section>
+    <div class="my-list">
+    <ul>
+        <li><img src="img/icon1.png" alt="">
+            <a href="">我关注的房源</a>
+        </li>
+        <li><img src="img/icon2.png" alt="">
+            <a href="">我关注的小区</a>
+        </li>
+        <li><img src="img/icon3.png" alt="">
+            <a href="">我关注的新房</a>
+        </li>
+        <li><img src="img/icon4.png" alt="">
+            <a href="">我的看房记录</a>
+        </li>
+    </ul>
+    </div>
+
+</section>
+</body>
+</html>
